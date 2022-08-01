@@ -1,0 +1,154 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1112px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+body {
+    font-family: 'Roboto';
+}
+
+.nav-description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav-img {
+    margin-top: 50px;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 30px;
+    margin-top: 79px;
+}
+.nav-link {
+    color: #8C8A8A;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+
+}
+
+.header-img {
+    margin-top: 38px;
+}
+
+
+
+.main-block {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 30px;
+}
+
+.main-title {
+    color: #4581B7;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+   
+    width: 393px;
+    padding-bottom: 25px;
+}
+
+.main-text {
+    color: #808080;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    width: 595px;
+}
+.main-description {
+    color: #808080;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    width: 286px;
+    padding-right: 40px;
+}
+
+.main-tel {
+    color: #808080;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+}
+
+.main-info {
+    color: #808080;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+}
+
+.main-content {
+    border: 1px solid #F0F0F0;
+    background: #F0F0F0;
+    padding: 50px 40px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    
+}
+
+.main-content2 {
+    border: 1px solid #F0F0F0;
+    background: #F0F0F0;
+    padding:  50px;
+    
+    margin-top: 30px;
+    margin-bottom: 40px;
+    width: 350px;
+}
+
+.main-contacts {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    padding-top: 20px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #F0F0F0;
+    background: #F0F0F0;
+    width: 1110px;
+    padding: 15px 40px;
+}
+
+.footer-contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+    
+}
+
+.footer-contact {
+    color: #808080;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    
+}
+
+.footer-number {
+    color: #808080;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 29px;
+    
+}
